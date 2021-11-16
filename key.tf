@@ -1,0 +1,4 @@
+resource "aws_key_pair" "deployer" {
+  key_name   = "laptop"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDYT4HlduH3dUFsZQLUGKZdMPNVkaIHISk4btFwnjzjP2D9owTin2Qci+ig6uyqbribMjOenjpOgA6FzFby6bMp64iZLH6szMDjQVRWDS+NV9l0cYVwGkGwvB8U96rshWjs5z8On8kazHr8wB9Mya0WWWNVfL8HMdNEe7MA2aX3Zs8uBuCEOtLP6rQnn389SE1scTHTrn4DJs4vOu4l8WcNl+SlAxfZXM1NvYsZf50oL/VNmfOjGbV94S7ImRlnp/1hX3/YMRGJYFHINW9dPJJjWTOu9wdzYPTkpOweHl1sFBLOHCHTgNKIsP++isHfHJEUm8PVv3SKjs//0r4FYnF3 ec2-user@FireplaceCrime"
+}
