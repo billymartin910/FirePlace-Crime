@@ -3,3 +3,5 @@ yum install httpd -y
 yum install telnet -y 
 sudo systemctl start httpd
 sudo systemctl enable httpd
+sudo yum install nginx -y 
+
