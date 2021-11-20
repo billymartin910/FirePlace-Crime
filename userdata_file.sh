@@ -6,7 +6,8 @@ sudo systemctl enable httpd
 sudo amazon-linux-extras install nginx1 -y 
 sudo yum install wget -y 
 sudo yum install unzip -y 
-sudo wget https://wordpress.org/latest.zip & sudo unzip latest.zip
+sudo wget https://wordpress.org/latest.zip 
+sudo unzip latest.zip
 sudo mv wordpress/* /var/www/html/
 
 #Below are the commands to install php version 7
