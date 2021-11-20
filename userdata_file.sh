@@ -3,8 +3,7 @@ yum install httpd -y
 yum install telnet -y 
 sudo systemctl start httpd
 sudo systemctl enable httpd
-sudo yum install nginx -y 
-sudo yum install mariadb-server mariadb -y
+sudo yum install nginx1 -y 
 sudo yum install wget -y 
 sudo yum install unzip -y 
 sudo wget https://wordpress.org/latest.zip
